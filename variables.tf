@@ -46,7 +46,7 @@ variable "short_env" {
 
   default = {
     production = ""
-    development = "-sdev"
+    development = "-sde"
   }
 }
 
