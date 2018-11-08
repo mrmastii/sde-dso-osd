@@ -119,6 +119,6 @@ variable "s3_bucket" {
 ##########################
 
 variable "instance_type" {
-  default = "t2.micro"
+  default = "t2.medium"
   description = "Ec2 instance for the ECS"
 }
